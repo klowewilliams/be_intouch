@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
-	get "/directory" => 'professionals#main'
+	get "/" => 'professionals#main'
+	get "/beintouch" => 'professionals#main'
 
 	#get "/user"
 	#get "/profile"
